@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d88ad9-4d72-4f62-af23-e60f72a2fc21" name="Changes" comment="Remove README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Bootcamp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Conteudo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Curso.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Dev.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Mentoria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
+    <list default="true" id="88d88ad9-4d72-4f62-af23-e60f72a2fc21" name="Changes" comment="Fim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-POO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Bootcamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Bootcamp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Dev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Dev.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Mentoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-POO/br/com/dio/desafio/dominio/Mentoria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647909763422</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fim">
+      <created>1647923178379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647923178379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +130,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add README.md" />
     <MESSAGE value="Remove README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove README.md" />
+    <MESSAGE value="Fim" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Objects;
@@ -31,12 +32,12 @@ public class Bootcamp {
         this.descricao = descricao;
     }
 
-    public LocalDate getDataInicial() {
-        return dataInicial;
+    public String getDataInicial() {
+        return dataInicial.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
-    public LocalDate getDataFinal() {
-        return dataFinal;
+    public String getDataFinal() {
+        return dataFinal.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
     public Set<Dev> getDevsInscritos() {
@@ -55,7 +56,6 @@ public class Bootcamp {
         this.conteudos = conteudos;
     }
     //Por trabalhar com linkHas e Lista para comparacoes etc
-
 
     @Override
     public boolean equals(Object o) {

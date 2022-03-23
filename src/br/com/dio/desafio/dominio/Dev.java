@@ -14,7 +14,6 @@ public class Dev {
     public void inscreverBootcamp(Bootcamp bootecamp){
         this.conteudosInscritos.addAll(bootecamp.getConteudos());
         bootecamp.getDevsInscritos().add(this);
-
     }
 
     public void progredir(){
@@ -24,18 +23,17 @@ public class Dev {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
         }else{
-            System.err.println("Você não esta matriculdo em nemhum conteudo!");
+            System.err.println("Você não esta matriculdo em nenhum conteudo!");
         }
     }
-
     public double calcularXpTotal(){
+        System.out.print("Seu XP Total == ");
         //Pegou cada conteudo dentro do set de concluidos pegou xp e somou
        return this.conteudosConcluidos
                .stream()
                .mapToDouble(Conteudo::calcularXp)
                .sum();
     }
-
     public String getNome() {
         return nome;
     }
@@ -45,22 +43,24 @@ public class Dev {
     }
 
     public Set<Conteudo> getConteudosInscritos() {
+        System.out.println("Você Está inscritos Nos Cursos de : ");
         return conteudosInscritos;
     }
 
     public void setConteudosInscritos(Set<Conteudo> conteudosInscritos) {
+
         this.conteudosInscritos = conteudosInscritos;
     }
 
     public Set<Conteudo> getConteudosConcluidos() {
-        return conteudosConcluidos;
+        System.out.println("Você Concluiu Os Cursos de : "); return conteudosConcluidos;
     }
 
     public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
         this.conteudosConcluidos = conteudosConcluidos;
     }
 
-    //Implementou pq ta trabalhando com Has
+    //Implementou pq ta trabalhando com Hash
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
